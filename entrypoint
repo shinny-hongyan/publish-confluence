@@ -2,9 +2,9 @@
 
 # install requirements.txt if it exists
 ls -lrt 
-#if [ -f requirements.txt ]; then
-#  pip install --user -r requirements.txt
-#fi
+if [ -f requirements.txt ]; then
+  pip install --user -r requirements.txt
+fi
 
 if ! [ -z "$INPUT_DOCSDIR" ]; then
   cd $INPUT_DOCSDIR
